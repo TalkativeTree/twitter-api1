@@ -1,0 +1,13 @@
+<% if @user.tweets %>
+<%= p @user %>
+<%= p @user.tweets.first.url %>
+
+  <% @user.tweets.each do |t| %>
+    <div id="tweet">
+    <h2><%= t.text  %></h2>
+    <h4><%= t.time %></h4><h5><a href="https://twitter.com/<%= @user.username %>/status/<%=t.url %>">View on twitter</a></h5>
+  </div>
+  <% end %>
+<% else %>
+  <h1> AINT NO TWEETS MAN</h1>
+<% end %>

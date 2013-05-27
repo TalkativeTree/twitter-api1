@@ -1,0 +1,67 @@
+.container {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F2EDEF;
+  border: #383637 solid 3px;
+  border-radius: 4px;
+  margin-top: 8px; 
+
+}
+
+div.nav_bar{
+  line-height: 64px;
+  border-radius: 2px;
+  width: 100%;
+  height: 64px;
+  background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 57%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(57%,#0e0e0e)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 57%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7d7e7d 0%,#0e0e0e 57%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7d7e7d 0%,#0e0e0e 57%); /* IE10+ */
+  background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 57%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+
+body{
+  background-image: url('/grey_wash_wall.png');
+  background-repeat: repeat;
+  margin: 0;
+}
+
+.nav_bar li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 30px;
+  float: right;
+}
+
+.brand a {
+  text-decoration: none;
+  font-family: Helvetica, Times New Roman;
+  display: inline;
+  padding-right: 30px;
+  float: left;
+  font-size: 40px;
+  color: #F2EDEF;
+  padding-left: 10px;
+}
+
+.nav_bar ul{
+ padding: 0;
+ margin: 0;
+}
+
+.nav_bar li a{
+  font-family: Helvetica, Times New Roman;
+  color: #F2EDEF;
+  text-decoration: none;
+}
+
+#tweet {
+  padding: 10px;
+  border: 10px solid pink;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px pink;
+}
